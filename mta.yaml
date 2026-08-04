@@ -83,6 +83,8 @@ resources:
     service: xsuaa
     service-name: sapuidemocart-xsuaa-service
     service-plan: application
+     config:
+        xsappname: sapuidemocart-${space}
 - name: sapuidemocart-repo-host
   type: org.cloudfoundry.managed-service
   parameters:
